@@ -1,0 +1,36 @@
+.menu{
+    width: 200px;
+    height: calc(100vh - 50px);
+    position: absolute;
+    left: 0;
+    top: 50px;
+    background-color: #35373a;
+    padding:0 10px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.menuItem{
+    padding: 10px 0;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem:hover{
+    background-color: #1976d2;
+    transition: 0.5s;
+}
+
+.icons:hover{
+    color: #1976d2;
+
+}

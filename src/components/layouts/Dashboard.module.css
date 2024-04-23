@@ -1,0 +1,15 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.chartContainer {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 43vh;
+    margin: 10px 0;
+    background-color: inherit;
+}
